@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Form Login</h1>
+    <form action="" method="get" accept-charset="UTF-8">
+        <fieldset>
+            <legend>
+                <img src="assets/Aqua.jpeg" alt="Aqua">
+            </legend>
+
+            <label for="fname">Account:</label>
+            &nbsp; &nbsp;
+            <input type="text" name="fname" id="fname" placeholder="email or number" /><br /><br/>
+            <label for="Password">Password:</label> &nbsp;
+            <input type="password" name="Password" id="Password" value=""/><br /><br/>
+        <div class="show-password-container">
+            <input type="checkbox" id="showPasswordCheckbox" onclick="togglePassword()"/>
+            <label for="showPasswordCheckbox">Show</label>
+        </div>
+            <input type="submit" value="Submit"/>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
